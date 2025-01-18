@@ -1,0 +1,117 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.section-one p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.brown {
+    color: #824936;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* vertically aligns center */
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one {
+    background: #F3EED9;
+    min-height: 70vh;
+
+}
+
+.container {
+    width: 80vw;
+    max-width: 1128px;
+    /* margin: 0 auto; */
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__txt {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+}
+
+.row p {
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 21px;
+}
+
+.section-two {
+    padding: 6em 0;
+}
+
+.col {
+    flex: 1;
+    width: 90%;
+}
+
+.section-three {
+    background: #222C2A;
+}
+
+
+
+.section-four {
+    background: #824936;
+}
+
+.white {
+    color: #fff;
+}
+
+.section-three, .section-four {
+    padding: 5em 0;
+}
+
+.section-three p, .section-four p {
+    margin-bottom: 0;
+}

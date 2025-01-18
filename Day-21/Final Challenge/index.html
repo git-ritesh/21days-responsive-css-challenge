@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-21 Final Challenge</title>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/git-ritesh/21-Days-Responsive-CSS-Challenge/master/Day-19/Mobile%20Navigation%20Challenge/img/logo.svg"
+      type="image/x-icon"
+    />
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- NAVIGATION BAR (HEADER) -->
+      <header>
+        <div class="desktop-nav-wrapper">
+          <div class="container" id="container__nav">
+            <!-- LOGO-WRAPPER -->
+            <div class="logo-wrapper">
+              <a href=""><img src="https://raw.githubusercontent.com/git-ritesh/21-Days-Responsive-CSS-Challenge/master/Day-19/Mobile%20Navigation%20Challenge/img/logo.svg" alt="crl logo" class="logo"></a>
+            </div>
+            <!-- HAMBURGER MENU -->
+            <button class="hamburger">
+              <div class="bar"></div>
+            </button>
+          </div>
+          <!-- NAV-ITEMS -->
+          <nav class="nav">
+            <ul class="nav__primary">
+              <li class="nav__list"><a class="nav__link" href="">HOME</a></li>
+              <li class="nav__list"><a class="nav__link" href="">ABOUT</a></li>
+              <li class="nav__list"><a class="nav__link" href="">CONTACT</a></li>
+            </ul>
+            <ul class="nav__secondary">
+              <li class="nav__list"><a class="nav__link" href="">SIGN IN</a></li>
+              <li class="nav__list nav__list--extra-margin"><a class="nav__link nav__link--button" href="">SIGN UP</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+            <!-- Large Title Text -->
+          <div class="hero__title-container">
+            <h1 class="hero__title clr-white">Responsive layouts <span class="clr-pantone">don't have to be a struggle</span></h1>
+          </div>
+          <!-- Description & call-to-action(button) container -->
+          <div class="hero__txt-cta-container">
+            <p class="hero__txt clr-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="cta-center"><button class="hero__cta clr-white">I WANT TO LEARN</button></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="features">
+        <div class="container">
+          <!-- Three columns containing texts -->
+            <div class="col col--first">
+              <h2 class="features__heading clr-pantone">Mobile-first</h2>
+              <p class="features__description">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut
+                enim ad minim veniam.</p>
+            </div>
+            <div class="col">
+              <h2 class="features__heading clr-pantone">Efficient</h2>
+              <p class="features__description">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut
+                enim ad minim veniam.</p>
+            </div>
+            <div class="col">
+              <h2 class="features__heading clr-pantone">Done right</h2>
+              <p class="features__description">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut
+                enim ad minim veniam.</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- TIPS SECTIONS -->
+      <section class="tips">
+        <div class="container">
+          <!-- Primary Content | Large -->
+          <div class="tips__primary">
+            <h1 class="tips__heading clr-pantone">It doesn't have to be so hard</h1>
+            <p class="tips__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <img class="tips__img" src="img/the-image.jpg" alt="hand drawn webpage layouts">
+            <p class="tips__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
+          <!-- Secondary Content | Small -->
+          <div class="tips__secondary">
+            <div class="tip-box">
+              <h3 class="tip__title">Break it down</h3>
+              <p class="tip__txt">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+            </div>
+            <div class="tip-box">
+              <h3 class="tip__title">Work your way up</h3>
+              <p class="tip__txt">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+            </div>
+            <div class="tip-box">
+              <h3 class="tip__title">Enjoy your life</h3>
+              <p class="tip__txt">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER SECTION -->
+      <section class="footer">
+        <div class="container footer__container">
+          <!-- Footer Heading Text -->
+          <h1 class="footer__title clr-white">Just scratching the surface</h1>
+          <!-- Footer Main Content -->
+          <div class="footer__content">
+            <!-- Intro content, contains details about company  -->
+            <div class="intro-content">
+              <h3 class="company__title clr-pantone">About our company</h3>
+              <p class="company__txt">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <!-- More footer content, contains contact & other details -->
+            <div class="more-content">
+              <!-- Card-1 -->
+              <div class="contact-info">
+                <h3 class="clr-pantone">Getting around</h3>
+                <p>Home</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+              <!-- Card-2 -->
+              <div class="other things">
+                <h3 class="clr-pantone">Other things</h3>
+                <p>Lorem ipsum</p>
+                <p>dolor</p>
+                <p>sit amet</p>
+                <p>consectetur</p>
+              </div>
+              <!-- Card-3 -->
+              <div class="And more clr">
+                <h3 class="clr-pantone">And more</h3>
+                <p>Lorem ipsum</p>
+                <p>dolor</p>
+                <p>sit amet</p>
+                <p>consectetur</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
