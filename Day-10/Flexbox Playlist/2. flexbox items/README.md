@@ -8,12 +8,12 @@ exploring right now.
 
 **There's five different properties we'll be looking at and they are following :**
 
-1. [flex-grow](#1-flex-grow)
-2. [flex-shrink](#2-flex-shrink)
-3. [flex-basis](#3-flex-basis)
-4. [flex](#4-flex)
-5. [align-self](#5-align-self)
-6. [order](#6-order) 
+1. [flex-grow](#1-flex-grow-)
+2. [flex-shrink](#2-flex-shrink-)
+3. [flex-basis](#3-flex-basis-)
+4. [flex](#4-flex-)
+5. [align-self](#5-align-self-)
+6. [order](#6-order-) 
 
 
 ## 1. `flex-grow` :
